@@ -5,15 +5,15 @@ This repository contains solutions and explanations for 8 foundational Python ex
 
 ## What I Learned 📚
 
-### 1. General Information
+### 1. Overall View
 - **File**: `scripts/missionOne.py`
-- **Description**: Provides general information and summary statistics about the dataset.
+- **Description**: Analysing the overall impression of a data set.
 
 ### 2. Convert `SaleCheckInDayDiff` to a Categorical Variable
 - **File**: `scripts/missionTwo.py`
-- **Description**: Converts the `SaleCheckInDayDiff` variable into a categorical variable with specified intervals and names.
+- **Description**: Classification of customers according to the time of booking (e.g. Early Bookers, Last Minuters). Class = EB_Score
 
-### 3. Average Earnings by Country, Source, Sex, and Age
+### 3. Average Earnings by Country, Source, Season, CInDay and EB_score
 - **File**: `scripts/missionThree.py`
 - **Description**: Calculates the average earnings for different groupings.
 
@@ -25,7 +25,7 @@ This repository contains solutions and explanations for 8 foundational Python ex
 - **File**: `scripts/missionFive.py`
 - **Description**: Converts index names to variable names.
 
-### 6. Define New Level-Based Customers (Personas)
+### 6. Define New Level-Based Customers
 - **File**: `scripts/missionSix.py`
 - **Description**: Creates a new `sales_level_based` variable.
 
